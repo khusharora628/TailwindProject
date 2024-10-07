@@ -1,0 +1,23 @@
+{
+  "name": "tailwindproject",
+  "version": "1.0.0",
+  "description": "this is my first tailwind project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khusharora628/TailwindProject.git"
+  },
+  "author": "Khush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khusharora628/TailwindProject/issues"
+  },
+  "homepage": "https://github.com/khusharora628/TailwindProject#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
